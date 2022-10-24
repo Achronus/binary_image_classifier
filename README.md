@@ -4,6 +4,7 @@ This repository focuses on a binary image classifier that aims to classify milit
 a large MobileNet-V3 architecture.
 
 ## File Structure
+```
 +-- app
 |   +-- cleaning.py
 |   +-- imaging.py
@@ -20,6 +21,7 @@ a large MobileNet-V3 architecture.
 +-- parameters.toml
 +-- README.md
 +-- requirements.txt
+```
 
 - `/app` - houses the functionality of the classifier
   - `cleaning.py` - covers functionality for cleaning the label data
