@@ -6,6 +6,7 @@ a large MobileNet-V3 architecture.
 ## File Structure
 ```
 +-- app
+|   +-- __init__.py
 |   +-- cleaning.py
 |   +-- imaging.py
 |   +-- model.py
@@ -17,6 +18,9 @@ a large MobileNet-V3 architecture.
 |   +-- updated_labels.csv
 +-- saved_models
 |   +-- mobilenetv3.pt
++-- tests
+|   +-- __init__.py
+|   +-- test_cleaning.py
 +-- demo.ipynb
 +-- parameters.toml
 +-- README.md
