@@ -1,7 +1,6 @@
 
 [labelparameters]
 LABEL_CLASSES = ['civilian', 'military']  # Binary class labels
-LABEL_COLUMNS = ['filename', 'class', 'type']  # Label data columns
 
 [modelparameters]
 EPOCHS = 1000
@@ -10,3 +9,7 @@ BATCH_SIZE = 128
 HIDDEN_LAYER_SIZES = [512, 256]
 NUM_CLASSES = 2
 SEED = 386
+
+[dataset_filenames]
+train_labels = 'train_labels.csv'
+test_labels = 'test_labels.csv'
